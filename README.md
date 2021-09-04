@@ -5,10 +5,12 @@
 
 
 
-```
+```hcl
 In Details this script will create a SCP who doesn't allow accounts leave Organization.
 
+```
 
+```hcl
 ## Check out the script
 
 
@@ -88,7 +90,7 @@ resource "aws_organizations_policy_attachment" "root" {
 #}
 
 
-
+```
 
 ## After that we can create a auto scaling Infra
 
@@ -101,8 +103,6 @@ resource "aws_organizations_policy_attachment" "root" {
 
 
 
-## Usange
-Examplo of the use: creating an aws account as member of the a AWS Organizations
 
 ```hcl
 teste
