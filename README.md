@@ -92,19 +92,10 @@ resource "aws_organizations_policy_attachment" "root" {
 
 ```
 
-## After that we can create a auto scaling Infra
-
-- Application Load Balance
-- Launch configuration
-- Auto scaling Group
-- Target Group
-
-```
-
-
 
 
 ## Requirements
+
 | Name | Version |
 | ---- | ------- |
 | aws | ~> 3.* |
