@@ -1,2 +1,0 @@
-# terraform-scp
-terraform-scp
